@@ -55,3 +55,10 @@ kita bisa lakukan conventional commit message setelah file di add
 //git commit -m 'Fix: message'
 
 //git commit -m 'Chore: message'
+
+reference:
+
+https://danielkummer.github.io/git-flow-cheatsheet/
+https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow#:~:text=Gitflow%20is%20an%20alternative%20Git,lived%20branches%20and%20larger%20commits
+https://gist.github.com/qoomon/5dfcdf8eec66a051ecd85625518cfd13
+https://www.conventionalcommits.org/en/v1.0.0/
