@@ -37,3 +37,8 @@ terdapat 3 mode pada git reset
 
 ![git-reset-mode](./git-reset.png)
 ![git-reset-mode2](./git-reset2.png)
+
+#Warning pada penggunaan git reset
+![git-reset3](./git-reset3.png)
+
+git
