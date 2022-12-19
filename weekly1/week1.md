@@ -4,7 +4,7 @@ terdapat 3 state dan section di git
 .) staged -> staging area
 .) committed -> repository
 
-![git-workflow](git-workflow.jpg)
+![git-workflow](git-workflow.png)
 
 snapshot -> menghasilkan hash sebagai identitas untuk setiap commitnya
 ![snapshot-diagram](snapshot-diagram.png)
