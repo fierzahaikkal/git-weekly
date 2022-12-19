@@ -8,7 +8,32 @@ delete file berpindah ke staged area
 jadi langkahnya:
 1.) Hapus File
 2.) git status
-3.) git add (file yang dihapus)
-4.) lalu lakukan git log untuk mengecek perubahan yang terjadi
+3.) git add (file-yang-dihapus)
+4.) git commit -m 'pesannya'
+5.) git push origin master
+6.) lalu lakukan git log untuk mengecek perubahan yang terjadi
 atau
-4.) git log --oneline untuk mengecek perubahan secara ringkas
+6.) git log --oneline untuk mengecek perubahan secara ringkas
+
+**Membatalkan penambahan file di working directory**
+Jika ingin menambahkan file ke working directory dan membatalkan perubahannya
+![git-clean](git-clean.png)
+
+**Membatalkan penambahan file di staged area**
+jika ingin membatalkan perubahan pada saat di staged area maka dapat lakukan
+/git restore --staged #ini akan membatalkan seluruh perubahan pada staged area
+atau
+/git restore --staged (nama-file)
+maka perubahan dari staged area akan kembali ke working directory
+
+Jika kita ingin membatalkan spesifik file di staged area bisa lakukan
+![git-restore](./git-restore.png)
+
+**menghapus file dengan git reset**
+terdapat 3 mode pada git reset
+--soft hanya memindahkan HEAD pointer
+--mixed memindahkan HEAD pointer dan mengubah staging area sama seperti pada repo
+--hard memindahkan HEAD pointer dan mengubah staging area, working directory sama seperti pada repo
+
+![git-reset-mode](./git-reset.png)
+![git-reset-mode2](./git-reset2.png)
