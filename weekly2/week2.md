@@ -41,4 +41,6 @@ terdapat 3 mode pada git reset
 #Warning pada penggunaan git reset
 ![git-reset3](./git-reset3.png)
 
-git
+**Git Revert**
+mengembalikan ke kondisi sebelumnya dan membuat commit baru dengan hasil kondisi yang dikembalikan
+git revert
