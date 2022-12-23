@@ -1,2 +1,5 @@
 print('ini versi 1')
 print('fitur a')
+print('fitur b')
+print('fitur baru dikembangkan')
+print('fitur c')
